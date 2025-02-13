@@ -1,0 +1,60 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1316544015" file="/Users/Shared/MATLAB/Sem-2/Swimmers Guide.prj" location="/Users/Shared/MATLAB/Sem-2" name="Swimmers Guide" target="target.mlapps" target-name="Package App">
+    <param.appname>Swimmers Guide</param.appname>
+    <param.authnamewatermark>Sebastián Quevedo</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary>An app to calculate your training data and statistics.</param.summary>
+    <param.description>An app to calculate your times and distances with different inputs. Using many outputs, you can view your data in an easy way.</param.description>
+    <param.screenshot>/private/var/folders/md/sq84h1t11c11qz4qhxfb9twh0000gn/T/tpf1351222_62f9_4483_aac6_5f89ef0e1cc4.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>/Users/sebas/Desktop</param.output>
+    <param.guid>baa9ef85-d1f5-4006-9146-e19702431e81</param.guid>
+    <unset>
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/SwimmersGuide.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Users/sebas" name="Desktop" optional="false">/Users/sebas/Desktop</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2023b.app</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>14.3.1</osver>
+      <os32>true</os32>
+      <os64>false</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
