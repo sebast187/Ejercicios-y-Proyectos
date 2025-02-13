@@ -1,0 +1,3 @@
+// Progress Bar for Daily Planner
+
+(((substring("☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️", 0, round(prop("Progress (%)") * 19)) + substring("☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️", 0, round((1 - prop("Progress (%)")) * 19))) + "   ") + format(round(prop("Progress (%)") * 100))) + "%"
